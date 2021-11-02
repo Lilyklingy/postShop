@@ -1,0 +1,144 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+header{
+    height: 608px;
+    width: 100%;
+    background-color: #3DE07E;
+}
+.menu .navbar{
+    margin: 1rem 0 0 1rem;
+}
+.header-contaner{
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-contaner h1{
+    font-size: 6rem;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 6rem;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+.main-contaner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.items{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    margin: 96px 16px 0 16px;
+}
+.items img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.items h2{
+    margin-bottom: 16px;
+}
+.items p{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.items button{
+    width: 40%;
+    display: inline-block;
+    background-color: #E83F57;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+
+}
+.main-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 97px;
+    justify-content: center;
+}
+.item{
+    width: 43%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    color: black;
+    margin: 0 10px;
+}
+
+.item h2{
+    margin: 32px 0 16px 15px;
+}
+.item p{
+    margin: 0 0 0 15px;
+}
+.item button{
+    width: 40%;
+    display: inline-block;
+    background-color: #E83F57;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding:10px;
+    border-radius: 4px;
+    margin: 64px 0 14px 15px;
+    border: none;
+}
+footer{
+    width: 100%;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 126px;
+}
+.footer-contaner{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    padding: 100px 0 0 0 ;
+}
+footer h1{
+    margin-bottom: 18px;
+}
+.footer-left ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+.footer-left ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer p{
+    line-height: 20px;
+}
+.footer-right a{
+    margin-right: 5px;
+}
